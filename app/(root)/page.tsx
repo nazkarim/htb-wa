@@ -16,11 +16,6 @@ export default async function Home() {
   return (
     <>
       <h1>Welcome to Hit The Books</h1>
-      {subjects.map((subject: { id: number; title: string }) => (
-        <div key={subject.id}>
-          <h2>{subject.title}</h2>
-        </div>
-      ))}
     </>
   );
 }

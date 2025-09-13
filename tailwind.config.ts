@@ -22,6 +22,7 @@ export default {
           foreground: "hsl(var(--popover-foreground))",
         },
         primary: {
+          "100": "#FCF4E9",
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
@@ -56,6 +57,9 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        Inter: ["var(--font-inter)"],
       },
     },
   },
